@@ -48,7 +48,6 @@ public class Exercise6 {
 		int max = Math.max(number1, number2);
 		int lcm = max;
 
-		// TODO: Write your code here
 		if (number1 < 0 || number2 < 0) {
 			return -1;
 		}

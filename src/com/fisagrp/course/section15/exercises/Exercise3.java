@@ -12,14 +12,16 @@ public class Exercise3 {
 	 *         number is zero.
 	 */
 	public int getNumberOfDigits(int number) {
-		int numberOfDigits = 1;
+
+		int numberOfDigits = 0;
+
 		if (number == 0) {
 			return 1;
 		}
 		if (number < 0) {
 			return -1;
 		}
-		while (number > 9) {
+		while (number > 0) {
 			number = number / 10;
 			numberOfDigits++;
 		}
